@@ -1,4 +1,4 @@
-/* Body */
+/* =================== Body =================== */
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -11,91 +11,274 @@
   background: #f0b922;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /* =================== Navbar =================== */
 .navbar {
-  background-color: #00000000 !important;
+  background-color: #fff !important;
+  width: 100%;
 }
 .nav-link {
-  color: #fff !important;
+  color: #181559 !important;
+}
+.nav-link:hover {
+  font-weight: 700;
+}
+.nav-icon {
+  font-size: 24px;
+  margin: 5px;
+}
+.nav-icon#facebook:hover {
+  color: #4267b2;
+  transition: 0.2s all ease-in-out;
+}
+.nav-icon#linkedin:hover {
+  color: #0072b1;
+  transition: 0.2s all ease-in-out;
+}
+.nav-icon#whatsapp:hover {
+  color: #25d366;
+  transition: 0.2s all ease-in-out;
 }
 
 /* =================== Banner =================== */
 .home-page-banner-section {
   max-width: 100%;
-  height: 550px;
-  background-color: #181559 !important;
+  height: 600px;
+  background-color: #fff !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  top: 0;
-  left: 0;
-  margin: 0;
-  z-index: -999;
+  padding: 10px;
   width: 100%;
-  margin-top: -60px;
 }
 .home-page-banner-section h1 {
-  color: #fff;
-  font-size: 54px;
+  color: #181559;
+  font-size: 44px;
   font-weight: bold;
   margin-bottom: 10px;
-}
-.home-page-banner-section h2 {
-  color: #e7e7e7;
-  font-weight: 500;
-  font-size: 30px;
-  margin-bottom: 10px;
+  margin-top: 100px;
 }
 .home-page-banner-section p {
   color: #f0b922;
   margin: 0;
   font-size: 24px;
+  font-weight: bold;
   margin-top: 5px;
+  margin-bottom: 30px;
 }
-.home-page-banner-section button {
+.connect-btn {
   width: 200px;
   padding: 10px;
   border-radius: 5px;
-  margin-top: 10px;
-  background-color: #00000000;
-  border: 1px solid #e7e7e7;
-  color: #fff;
-}
-.home-page-banner-section button:hover {
-  background-color: #e7e7e7;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #181559;
   color: #181559;
+  background-color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.connect-btn:hover {
+  background-color: #181559;
+  border: 1px solid #181559;
+  color: #fff;
   transition: 0.5s all ease-in-out;
 }
-
+.home-page-lottie {
+  width: 300px;
+  height: 300px;
+}
 /* =================== Who we are  =================== */
 .who-we-are-section {
   padding: 20px;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   width: 100% !important;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
-.who-we-are-section img {
-  width: 100%;
-  height: auto;
-}
-.inner-col {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.inner-col h3 {
-  text-align: center !important;
-  color: #181559;
+.who-we-are-section h3 {
   font-weight: bold;
 }
-.inner-col p {
-  text-align: justify !important;
+.inner-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.colored-box {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.colored-box:hover,
+.colored-box:hover h4,
+.colored-box:hover p {
+  background-color: #181559;
+  color: #fff;
+  border: 0;
+}
+.colored-box h4 {
+  color: #181559;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.colored-box p {
+  color: #181559;
+  text-align: center;
+}
+.box-lottie {
+  width: 100px;
+  height: 100px;
+}
+
+/* =================== What we do  =================== */
+.what-we-do-section h3 {
+  font-weight: bold;
+}
+.horizontal-nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =================== Client  =================== */
+.client-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.client-section h3 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.carousel-row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.card {
+  margin: 10px;
+}
+.carousel-control-prev-icon {
+  content: url("../images/icons/caret-back-outline.svg");
+}
+.carousel-control-next-icon {
+  content: url("../images/icons/caret-forward-outline.svg");
+}
+
+/* =================== Contact Section  =================== */
+.contact-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.contact-section h3 {
+  font-weight: bold;
+}
+.contact-form {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 40px;
+}
+.contact-btn {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #181559;
+  color: #181559;
+  padding: 10px;
+  border-radius: 3px;
+}
+.contact-btn:hover {
+  background-color: #181559;
+  color: #fff;
+  transition: 0.5s all ease-in-out;
+}
+.contact-lottie {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center !important;
+}
+/* =================== Footer Section  =================== */
+.footer-section {
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 30px;
+  position: absolute;
+}
+
+/* =================== Responsive  =================== */
+@media only screen and (max-width: 768px) {
+  /* =================== Banner =================== */
+  .home-page-banner-section {
+    flex-direction: column !important;
+    margin-bottom: 100px !important;
+  }
+  .home-page-banner-section h1 {
+    color: #181559;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .home-page-banner-section p {
+    color: #f0b922;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .home-page-lottie {
+    display: none;
+  }
+
+  /* =================== Who we are  =================== */
+  .inner-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .colored-box {
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  }
+  /* =================== Contact Section  =================== */
+  .contact-lottie {
+    display: none;
+  }
 }

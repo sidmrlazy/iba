@@ -1,30 +1,26 @@
-<div>
+<div class="container what-we-do-section" id="what-we-do">
     <h3>What We Do</h3>
 
     <!-- =================  Navigation  ===================== -->
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <ul class="nav nav-tabs horizontal-nav" id="myTab" role="tablist">
         <li class="nav-item tab-item" role="presentation">
-            <button class="nav-link static-nav-link active" id="mobile-tab" data-bs-toggle="tab"
-                data-bs-target="#mobile" type="button" role="tab" aria-controls="mobile"
-                aria-selected="true">Mobile</button>
+            <button class="nav-link static-nav-link active" id="lease-tab" data-bs-toggle="tab" data-bs-target="#lease"
+                type="button" role="tab" aria-controls="lease" aria-selected="true">Lease</button>
         </li>
         <li class="nav-item tab-item" role="presentation">
-            <button class="nav-link static-nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
-                type="button" role="tab" aria-controls="frontend" aria-selected="false">Frontend</button>
+            <button class="nav-link static-nav-link" id="sell-tab" data-bs-toggle="tab" data-bs-target="#sell"
+                type="button" role="tab" aria-controls="sell" aria-selected="false">Sell</button>
         </li>
         <li class="nav-item tab-item" role="presentation">
-            <button class="nav-link static-nav-link" id="database-tab" data-bs-toggle="tab" data-bs-target="#database"
-                type="button" role="tab" aria-controls="database" aria-selected="false">Database</button>
+            <button class="nav-link static-nav-link" id="invest-tab" data-bs-toggle="tab" data-bs-target="#invest"
+                type="button" role="tab" aria-controls="invest" aria-selected="false">Invest</button>
         </li>
-        <li class="nav-item tab-item" role="presentation">
-            <button class="nav-link static-nav-link" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
-                type="button" role="tab" aria-controls="backend" aria-selected="false">Backend</button>
-        </li>
+
     </ul>
 
     <div class="tab-content" id="myTabContent">
-        <!-- ============= Mobile ============= -->
-        <div class="tab-pane fade show active" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+        <!-- ============= Lease ============= -->
+        <div class="tab-pane fade show active" id="lease" role="tabpanel" aria-labelledby="lease-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
                     <img src="assets/images/icons/apple.png" alt="">
@@ -45,8 +41,8 @@
             </div>
         </div>
 
-        <!-- ============= Frontend ============= -->
-        <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+        <!-- ============= Sell ============= -->
+        <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
                     <img src="assets/images/icons/html.png" alt="">
@@ -67,8 +63,8 @@
             </div>
         </div>
 
-        <!-- ============= Database ============= -->
-        <div class="tab-pane fade" id="database" role="tabpanel" aria-labelledby="database-tab">
+        <!-- ============= Invest ============= -->
+        <div class="tab-pane fade" id="invest" role="tabpanel" aria-labelledby="invest-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
                     <img src="assets/images/icons/sql.png" alt="">
@@ -88,25 +84,6 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="backend-tab">
-            <div class="accordion-body">
-                <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/php.png" alt="">
-                    <p>PHP</p>
-                </div>
-                <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/java.png" alt="">
-                    <p>Java</p>
-                </div>
-                <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/python.png" alt="">
-                    <p>Python</p>
-                </div>
-                <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/node.png" alt="">
-                    <p>Node</p>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
