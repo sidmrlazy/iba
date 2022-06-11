@@ -211,7 +211,7 @@ input[type="number"] {
 .contact-btn:hover {
   background-color: #181559;
   color: #fff;
-  transition: 0.5s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 .contact-lottie {
   width: 500px;
@@ -227,6 +227,20 @@ input[type="number"] {
   border-top: 1px solid #e7e7e7;
   padding-top: 30px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #000;
+  list-style-type: none;
+}
+.footer-list li {
+  margin-bottom: 20px;
+}
+.footer-list a:hover {
+  font-weight: bold;
 }
 
 /* =================== Responsive  =================== */
@@ -280,5 +294,16 @@ input[type="number"] {
   /* =================== Contact Section  =================== */
   .contact-lottie {
     display: none;
+  }
+
+  /* =================== Footer Section  =================== */
+  .footer-section {
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 30px;
+    position: absolute;
+  }
+  .footer-list li {
+    margin-bottom: 20px !important;
   }
 }

@@ -1,19 +1,19 @@
 <footer class="footer-section">
 
-    <ul>
-        <a href="">
+    <ul class="footer-list">
+        <a href="index.php">
             <li>Home</li>
         </a>
-        <a href="">
+        <a href="index.php#who-we-are">
             <li>Who we are</li>
         </a>
-        <a href="">
+        <a href="index.php#what-we-do">
             <li>What we do</li>
         </a>
-        <a href="">
+        <a href="index.php#clients">
             <li>Clients</li>
         </a>
-        <a href="">
+        <a href="index.php#contact">
             <li>Contact us</li>
         </a>
     </ul>
