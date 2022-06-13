@@ -182,12 +182,20 @@ input[type="number"] {
 }
 .card {
   margin: 10px;
+  border: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 .carousel-control-prev-icon {
   content: url("../images/icons/caret-back-outline.svg");
 }
 .carousel-control-next-icon {
   content: url("../images/icons/caret-forward-outline.svg");
+}
+.card-img-top {
+  width: 50% !important;
+  height: auto;
 }
 
 /* =================== Contact Section  =================== */

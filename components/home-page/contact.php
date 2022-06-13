@@ -75,6 +75,7 @@
             </div>
             <button type="submit" name="submit" class="contact-btn">Submit</button>
         </form>
+
         <div class="col-md-6 d-flex justify-content-center align-items-center">
             <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_gflsxfzt.json" background="transparent"
                 speed="1" class="contact-lottie" loop autoplay></lottie-player>
