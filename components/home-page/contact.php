@@ -4,13 +4,12 @@
     <?php
     include('components/server/config.php');
     if (isset($_POST['submit'])) {
-
         $contact_name = $_POST['contact_name'];
         $contact_number = $_POST['contact_number'];
         $contact_email = $_POST['contact_email'];
         $contact_service = $_POST['contact_service'];
 
-        if ($contact_number !== "" || $contact_name !== "" || $contact_service !== "") {
+        if ($contact_number != null || $contact_name != null || $contact_service != null) {
             $query = "INSERT INTO `contact`(
                 contact_name,
                 contact_number,

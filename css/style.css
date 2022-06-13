@@ -34,6 +34,10 @@ input[type="number"] {
 .nav-link:hover {
   font-weight: 700;
 }
+.nav-icon-link {
+  text-decoration: none;
+  color: #000;
+}
 .nav-icon {
   font-size: 24px;
   margin: 5px;

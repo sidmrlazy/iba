@@ -24,9 +24,17 @@
                 </li>
             </ul>
             <div class="d-flex">
-                <ion-icon name="logo-facebook" id="facebook" class="nav-icon"></ion-icon>
-                <ion-icon name="logo-linkedin" id="linkedin" class="nav-icon"></ion-icon>
-                <ion-icon name="logo-whatsapp" id="whatsapp" class="nav-icon"></ion-icon>
+                <a class="nav-icon-link" href="https://www.facebook.com/indu.bhushanasthana.5" target="_blank">
+                    <ion-icon name="logo-facebook" id="facebook" class="nav-icon"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/indu-bhushan-asthana-b9852757/" class="nav-icon-link"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin" id="linkedin" class="nav-icon"></ion-icon>
+                </a>
+                <a href="https://wa.me/+919506200965?text=Hi,%20I%20am%20contacting%20you%20from%20your%20website%20"
+                    class="nav-icon-link" target="_blank">
+                    <ion-icon name="logo-whatsapp" id="whatsapp" class="nav-icon"></ion-icon>
+                </a>
             </div>
         </div>
     </div>

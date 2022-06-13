@@ -23,19 +23,19 @@
         <div class="tab-pane fade show active" id="lease" role="tabpanel" aria-labelledby="lease-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/apple.png" alt="">
+                    <!-- <img src="assets/images/icons/apple.png" alt=""> -->
                     <p>iOS</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/android.png" alt="">
+                    <!-- <img src="assets/images/icons/android.png" alt=""> -->
                     <p>Android</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/react-native.png" alt="">
+                    <!-- <img src="assets/images/icons/react-native.png" alt=""> -->
                     <p>React Native</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/swift.png" alt="">
+                    <!-- <img src="assets/images/icons/swift.png" alt=""> -->
                     <p>Swift</p>
                 </div>
             </div>
@@ -45,19 +45,19 @@
         <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/html.png" alt="">
+                    <!-- <img src="assets/images/icons/html.png" alt=""> -->
                     <p>HTML5</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/css.png" alt="">
+                    <!-- <img src="assets/images/icons/css.png" alt=""> -->
                     <p>CSS</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/react-native.png" alt="">
+                    <!-- <img src="assets/images/icons/react-native.png" alt=""> -->
                     <p>React JS</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/typescript.png" alt="">
+                    <!-- <img src="assets/images/icons/typescript.png" alt=""> -->
                     <p>TypeScript </p>
                 </div>
             </div>
@@ -67,19 +67,19 @@
         <div class="tab-pane fade" id="invest" role="tabpanel" aria-labelledby="invest-tab">
             <div class="accordion-body">
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/sql.png" alt="">
+                    <!-- <img src="assets/images/icons/sql.png" alt=""> -->
                     <p>MySQL</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/postSql.png" alt="">
+                    <!-- <img src="assets/images/icons/postSql.png" alt=""> -->
                     <p>PostgreSQL</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/firebase.png" alt="">
+                    <!-- <img src="assets/images/icons/firebase.png" alt=""> -->
                     <p>Firebase</p>
                 </div>
                 <div class="col-md-3 custom-card">
-                    <img src="assets/images/icons/mongo.png" alt="">
+                    <!-- <img src="assets/images/icons/mongo.png" alt=""> -->
                     <p>MongoDB </p>
                 </div>
             </div>
