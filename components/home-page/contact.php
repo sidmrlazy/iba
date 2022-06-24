@@ -31,7 +31,7 @@
 
         $result = mysqli_query($connection, $query);
 
-        $to = "ibasthana@gmail.com";
+        $to = "sid.asthana0290@gmail.com";
         $subject = "ibasthana.com: Website Visitor!";
         $message = $contact_name . " " . "has contacted you on your website. His Email Address is " . $contact_email . " and his address is " . $contact_address . ", " . $contact_city . ", " . $contact_pincode;
         if ($result) {
