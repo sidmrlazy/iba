@@ -28,6 +28,16 @@ input[type="number"] {
   background-color: #fff !important;
   width: 100%;
 }
+.navbar-brand {
+  max-width: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar-brand img {
+  width: 30%;
+  height: auto;
+}
 .nav-link {
   color: #181559 !important;
 }
@@ -108,6 +118,9 @@ input[type="number"] {
   margin-bottom: 100px;
   width: 100% !important;
 }
+.who-we-are-section p {
+  font-size: 20px !important;
+}
 .who-we-are-section h3 {
   font-weight: bold;
 }
@@ -158,6 +171,9 @@ input[type="number"] {
 /* =================== What we do  =================== */
 .what-we-do-section h3 {
   font-weight: bold;
+}
+.what-we-do-section p {
+  font-size: 20px !important;
 }
 .horizontal-nav {
   margin-top: 50px;
@@ -217,7 +233,7 @@ input[type="number"] {
   background-color: #fff;
   border: 1px solid #181559;
   color: #181559;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
 }
 .contact-btn:hover {
@@ -225,14 +241,7 @@ input[type="number"] {
   color: #fff;
   transition: 0.2s all ease-in-out;
 }
-.contact-lottie {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center !important;
-}
+
 /* =================== Footer Section  =================== */
 .footer-section {
   width: 100%;
@@ -254,7 +263,15 @@ input[type="number"] {
 .footer-list a:hover {
   font-weight: bold;
 }
-
+/* =================== Details Section  =================== */
+.details h3 {
+  margin: 0;
+  font-weight: bold;
+}
+.details p {
+  margin: 0;
+  margin-bottom: 20px;
+}
 /* =================== Responsive  =================== */
 @media only screen and (max-width: 768px) {
   /* =================== Banner =================== */
