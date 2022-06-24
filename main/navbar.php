@@ -26,9 +26,9 @@
                 </li>
             </ul>
             <div class="d-flex">
-                <a class="nav-icon-link" href="https://www.facebook.com/indu.bhushanasthana.5" target="_blank">
+                <!-- <a class="nav-icon-link" href="https://www.facebook.com/indu.bhushanasthana.5" target="_blank">
                     <ion-icon name="logo-facebook" id="facebook" class="nav-icon"></ion-icon>
-                </a>
+                </a> -->
                 <a href="https://www.linkedin.com/in/indu-bhushan-asthana-b9852757/" class="nav-icon-link"
                     target="_blank">
                     <ion-icon name="logo-linkedin" id="linkedin" class="nav-icon"></ion-icon>

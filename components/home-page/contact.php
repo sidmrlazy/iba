@@ -37,7 +37,7 @@
 
         if ($result) {
             mail($to, $subject, $message);
-            echo "<div class='alert alert-success' role='alert'>
+            echo "<div class='alert alert-success text-center col-md-12' role='alert'>
             Form Submitted! Thank you.
           </div>";
         } else {

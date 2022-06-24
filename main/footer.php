@@ -1,5 +1,4 @@
-<footer class="footer-section">
-
+<div class="footer-section">
     <ul class="footer-list">
         <a href="index.php">
             <li>Home</li>
@@ -17,7 +16,14 @@
             <li>Contact us</li>
         </a>
     </ul>
-</footer>
+</div>
+
+<div class="bottom-footer">
+    <p>&#169; All Rights Reserved | Designed & Developed By <a href="https://onlynus.com" target="_blank">Onlyn</a>
+    </p>
+</div>
+
+
 
 <!-- LottieFiles -->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
