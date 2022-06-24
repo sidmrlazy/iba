@@ -36,6 +36,9 @@
         $message = $contact_name . " " . "has contacted you on your website. His Email Address is " . $contact_email . " and his address is " . $contact_address . ", " . $contact_city . ", " . $contact_pincode;
         if ($result) {
             mail($to, $subject, $message);
+            echo "<div class='alert alert-success' role='alert'>
+            Form Submitted! Thank you.
+          </div>";
         } else {
             die("ERROR 404!" . mysqli_error($connection));
         }
