@@ -46,7 +46,37 @@
             Error! There was some problem in submitting this form.
           </div>" . mysqli_error($connection));
         } else {
-            echo "<div class='alert alert-success' role='alert'>Thank you for your interest. Someone from our team will contact you shortly</div>";
+            $to = 'sid.asthana0290@gmail.com';
+            $subject = 'Website Form Filled';
+            $message = $user_name . "with contact " . $user_contact . "has contacted you from your website";
+            $from = 'ibasthana@ibasthana.com';
+
+            $headers  = 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+            $headers .= 'From: ' . $from . "\r\n" .
+                'Reply-To: ' . $from . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+            $message = '<html><body>';
+            $message .= '<h1 style="color:#f40;">Hello I. B. Asthana</h1>';
+            $message .= "<p style='color:#000;font-size:18px;'>Name: '$user_name', <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Contact: '$user_contact', <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Available on Whatsapp: '$user_contact_whatsapp', <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Property Type: '$user_property_type', <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Floor Offered: '$user_floor_offered', <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Property Area: '$user_property_area' SqFt, <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Frontage: '$user_property_frontage' Ft, <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Landmark: '$user_property_landmark' Ft, <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>State: '$user_state' Ft, <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>City: '$user_city' Ft, <br></p>";
+            $message .= "<p style='color:#000;font-size:18px;'>Pincode: '$user_pincode' Ft, <br></p>";
+            $message .= '</body></html>';
+
+            // Sending email
+            if (mail($to, $subject, $message, $headers)) {
+                echo "<div class='alert alert-success' role='alert'>Thank you for your interest. Someone from our team will contact you shortly</div>";
+            }
         }
     }
 
