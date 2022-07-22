@@ -46,7 +46,7 @@
             Error! There was some problem in submitting this form.
           </div>" . mysqli_error($connection));
         } else {
-            $to = 'sid.asthana0290@gmail.com';
+            $to = 'ibasthana@ibasthana.com';
             $subject = 'Website Form Filled';
             $message = $user_name . "with contact " . $user_contact . "has contacted you from your website";
             $from = 'ibasthana@ibasthana.com';
@@ -59,7 +59,7 @@
                 'X-Mailer: PHP/' . phpversion();
 
             $message = '<html><body>';
-            $message .= '<h1 style="color:#f40;">Hello I. B. Asthana</h1>';
+            $message .= '<h1 style="color:#000;">Hello I. B. Asthana</h1>';
             $message .= "<p style='color:#000;font-size:18px;'>Name: '$user_name', <br></p>";
             $message .= "<p style='color:#000;font-size:18px;'>Contact: '$user_contact', <br></p>";
             $message .= "<p style='color:#000;font-size:18px;'>Available on Whatsapp: '$user_contact_whatsapp', <br></p>";
