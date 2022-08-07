@@ -2,29 +2,36 @@
     <h3>What We Do</h3>
 
     <p>Ibasthana also known as IBA is a professional Leasing consultant, and offers end to end services to clients
-        encompassing institutional & commercial Leasing | Selling | Investing | Franchising consulting for the real
-        estate market in India.</p>
-    <p>Over the years, he has managed to develop strong relationships with a multitude of leading developers, promoters,
-        and investors in the real estate business. His relationship with big players in the market enables to help
-        clients invest intelligently. The strong foundation of the business is based on core values of integrity, client
-        satisfaction, responsibility and out of the box approach.</p>
-
-    <p>IBA offers comprehensive Leasing Consulting solutions, which are creative, cost-efficient and tailor-made to meet
-        the specific investment requirements of clients with an eye on their long term and short term investment goals.
+        encompassing institutional & commercial Leasing | Selling | Investing | Franchising consultancy including
+        rolling out "Large & Small Format Stores" across the states in India. </p>
+    <p>Over the years, he has managed to roll out business of brands like Reliance Infocom Ltd, Tata Tele Services Ltd,
+        Bharti Airtel Ltd, Idea Cellular Ltd, Videocon, Lava Mobiles, Gionee & OPPO, Reliance Smart Points and has
+        developed strong relationships with a multitude of leading Corporates, Business Professionals in Trading and re
+        Trading community, Real estate developers, promoters, and investors in business. His relationship with big
+        players in the market enables to help clients roll out their brands extensively. The strong foundation of the
+        business is based on core values of integrity, client satisfaction, responsibility and out of the box approach.
     </p>
-
-    <p>IBA cater to all kinds of needs of customers who wish to buy, sell, lease, finance property.</p>
 
     <p>IBA’s Leasing solutions are backed by in-depth market experience which helps maximize asset value and returns.
     </p>
 
-    <p>IBA believes in the principles of human genesis and ingenuity. </p>
+    <p>IBA represents a team of experts from the field of Sales, Marketing, Distribution, Online Marketing & Branding,
+        Software developers, Legal, Financial and Real estate advisors and endeavours to provide the clients an
+        unmatched experience through path-breaking & innovative ideas using Sales and Marketing initiatives for Leasing
+        and Sales of Pre-Leased properties of Investors.
+    </p>
+
+    <p>IBA has built an Infrastructure of in-house Sales and Marketing Team, Portal administrator and back office for
+        business of Leasing l Investment l Sales & Marketing l Franchising.
+    </p>
+
+    <!-- <p>IBA believes in the principles of human genesis and ingenuity. </p>
 
     <p>IBA represents a team of experts from the field of Legal, Financial and Real estate advisors and endeavors to
         provide the clients an unmatched experience through path-breaking & innovative ideas. </p>
 
     <p>IBA has built an Infrastructure of in-house Sales and Marketing Team, Portal administrator and back office for
-        business of Leasing l Investment l Sales & Marketing l Franchising.</p>
+        business of Leasing l Investment l Sales & Marketing l Franchising.</p> -->
     <!-- =================  Navigation  ===================== -->
     <!-- <ul class="nav nav-tabs horizontal-nav" id="myTab" role="tablist">
         <li class="nav-item tab-item" role="presentation">
