@@ -33,7 +33,7 @@
                     target="_blank">
                     <ion-icon name="logo-linkedin" id="linkedin" class="nav-icon"></ion-icon>
                 </a>
-                <a href="https://wa.me/+919506200965?text=Hi,%20I%20am%20contacting%20you%20from%20your%20website%20"
+                <a href="https://wa.me/+918808808888?text=Hi,%20I%20am%20contacting%20you%20from%20your%20website%20"
                     class="nav-icon-link" target="_blank">
                     <ion-icon name="logo-whatsapp" id="whatsapp" class="nav-icon"></ion-icon>
                 </a>
